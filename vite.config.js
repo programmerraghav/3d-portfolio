@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/404-Found-Us/',
+  base: '/3d-portfolio/',
   plugins: [react()],
 })

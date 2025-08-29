@@ -1,4 +1,5 @@
 import './App.css'
+import bg from "./Background.jpg"
 import Navbar from './Components/Navbar'
 import About from './Components/About.jsx'
 import Home from './Components/Home'
@@ -9,7 +10,7 @@ import Contact from './Components/Contact.jsx'
 function App() {
   return (
     <>
-      <img src="/Background.jpg" alt="Background" loading='eager' className='background' />
+      <img src={bg} alt="Background" loading='eager' className='background' />
       <Navbar />
       <Home />
       <About />
