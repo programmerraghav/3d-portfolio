@@ -42,7 +42,7 @@ const Work = () => {
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 70, damping: 10, delay: 0.3 }}
         >
-          <Project className={"project card"} image={project1} delay={0.3} project_name={"Portfolio Site"} overview={"A fully responsive personal portfolio designed and developed to showcase my skills in full-stack web development. This site features a modern dark theme with vibrant UI elements and 2 interactive 3D model to create an engaging user experience."} technologies={"React, Three.js, Framer-motion, Node.js"} />
+          <Project source_code_link={"https://github.com/programmerraghav/3d-portfolio-code"} className={"project card"} image={project1} delay={0.3} project_name={"Portfolio Site"} overview={"A fully responsive personal portfolio designed and developed to showcase my skills in full-stack web development. This site features a modern dark theme with vibrant UI elements and 2 interactive 3D model to create an engaging user experience."} technologies={"React, Three.js, Framer-motion, Node.js"} />
         </motion.div>
       </motion.div>
     </>
